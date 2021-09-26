@@ -101,7 +101,7 @@ nav {
 }
 
 nav:hover {
-    box-shadow: 1px 2px darkblue;
+    box-shadow: 1px 1px royalblue;
 }
 
 nav div {
@@ -204,4 +204,22 @@ main {
 
 .post-text {
     font-size: 18px;
+}
+
+
+.like-button {
+    background-image: url(../img/like.png);
+    background-size: 25px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: steelblue;
+    width: 50px;
+    height: 30px;
+
+    border: none;
+    border-radius: 3px;
+}
+
+.like-button:hover {
+    background-color: royalblue;
 }
