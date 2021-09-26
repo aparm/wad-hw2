@@ -37,7 +37,7 @@ a {
     text-align: center;
 }
 
-.login-section > p {
+#create-acc-link ~ p {
     font-size: 25px;
 }
 
