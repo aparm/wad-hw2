@@ -127,14 +127,14 @@ nav div img {
 .search-container {
     height: 30px;
     margin: auto;
-    width: 60%;
+    width: 65%;
+    text-align: center;
 }
 
 .search-container > input {
     max-height: 100%;
     width: 65%;
 
-    vertical-align: middle;
     font-size: 18px;
 }
 
