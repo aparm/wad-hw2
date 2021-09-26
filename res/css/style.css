@@ -151,7 +151,57 @@ nav div img {
     background-color: royalblue;
 }
 
-
 .user-icon-container {
     margin-right: 15px;
+}
+
+
+
+/*index.html main*/
+main {
+    display: flex;
+    align-items: center;
+}
+
+.main-container {
+    background-color: white;
+    width: 60%;
+    min-width: 400px;
+    margin: 30px auto auto;
+}
+
+.post {
+    width: 90%;
+    background-color: #ffffff;
+    margin: 30px auto auto;
+    box-shadow: 0 0 10px 1px #888888;
+
+    padding: 20px;
+}
+
+.post-info {
+    display: flex;
+    flex-direction: row;
+}
+
+.post-author-photo {
+    width: 50px;
+    height: 50px;
+    vertical-align: middle;
+    margin-bottom: 10px;
+    text-align: start;
+}
+
+.date {
+    margin-left: auto;
+    font-size: 15px;
+    font-style: italic;
+}
+
+.post-image {
+    width: 100%;
+}
+
+.post-text {
+    font-size: 18px;
 }
