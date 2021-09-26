@@ -84,3 +84,74 @@ form button:hover {
     width: 120px;
     height: 120px;
 }
+
+/* index.html header */
+header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1;
+}
+
+nav {
+    background-color: white;
+
+    display: flex;
+    align-items: center;
+}
+
+nav:hover {
+    box-shadow: 1px 2px darkblue;
+}
+
+nav div {
+    height: 40px;
+    padding: 5px;
+}
+
+nav div img {
+    height: 100%;
+}
+
+.logo-container {
+    margin-left: 15px;
+}
+
+
+
+.search-container {
+    height: 30px;
+    margin: auto;
+    width: 60%;
+}
+
+.search-container > input {
+    max-height: 100%;
+    width: 65%;
+
+    vertical-align: middle;
+    font-size: 18px;
+}
+
+.search-container > button {
+    height: 30px;
+    width: 20%;
+    min-width: 70px;
+    background-color: steelblue;
+
+
+    border-radius: 3px;
+    border: none;
+
+    font-size: 15px;
+    color: white;
+}
+
+.search-container > button:hover {
+    background-color: royalblue;
+}
+
+
+.user-icon-container {
+    margin-right: 15px;
+}
