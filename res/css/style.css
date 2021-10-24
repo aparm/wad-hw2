@@ -105,10 +105,6 @@ nav {
     align-items: center;
 }
 
-nav:hover {
-    box-shadow: 1px 1px royalblue;
-}
-
 nav div {
     height: 40px;
     padding: 5px;
@@ -177,6 +173,7 @@ main {
     width: 60%;
     min-width: 400px;
     margin: auto;
+    padding-bottom: 30px;
 }
 
 .post {
@@ -199,6 +196,7 @@ main {
     vertical-align: middle;
     margin-bottom: 10px;
     text-align: start;
+    border-radius: 100%;
 }
 
 .date {
