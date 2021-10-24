@@ -156,6 +156,18 @@ nav div img {
     margin-right: 15px;
 }
 
+.user-info {
+    background-color: white;
+    height: 80px;
+    min-width: 200px;
+    padding-left: 15px;
+
+    position: absolute;
+    right: 0;
+
+    display: none;
+}
+
 
 
 /*index.html main*/

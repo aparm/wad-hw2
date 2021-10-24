@@ -86,3 +86,11 @@ $(function() {
         }
     })
 }); */
+
+
+//Open and close user info by clicking on user icon
+$(function() {
+    $('.user-icon-container').on('click', '.user-icon', function() {
+        $('.user-info').slideToggle(0);
+    });
+});
